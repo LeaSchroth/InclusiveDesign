@@ -2,28 +2,65 @@
 <html>
 <head>
  
-        <title>Gegen Diskriminierung im Design</title>
-  
-</head>
+<title>Gegen Diskriminierung im Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
- 
+html, body {
+	margin: 0;
+  	padding: 0;
+  	height: 100%;
+}
+
+div#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+div#section {
+	width: 100%;
+	height: 100px;
+}
+
+div.banner {
+	background-color: red; /*rot*/
+}
+
+div.content {
+	margin-left: 1%;
+}
  
 p {
-  color:#000000;   
-  font-size:20pt;  
-  font-family:calibri; /* Schriftart */
+  	color:#000000;   
+  	font-size:20pt;  
+  	font-family:calibri; /* Schriftart */
 }
- a {
-  color:#EFC100;   /*lila*/
-  font-size:20pt;  
-  font-family:calibri; /* Schriftart */
- }
-</style>
 
-<p><br>
-<br>Diese Darstellung soll Diskriminierung im Design simulieren. <br> Viele Designer ignorieren den Fakt, dass Gestaltung inklusiv sein sollte. Unter den Begriff der Diskriminierung fallen einige Bereiche, wie "Sexismus", "Rassismus" und "Klassismus". <br> Was für Design eine weitere Rolle spielt ist der "Ableism", die Diskriminierung von verschiedenen Behinderungen. <br>
-<br>
-Um die inklusive Version des Plakats sehen zu können ladet euch die verlinkte App herunter und scanned das Plakat.</p>
-  <a href="https://play.google.com/store/apps/details?hl=de&id=com.aurasma.aurasma">Augmented Reality App - HP Reveals</a>
-</body
+a {
+  	color:#EFC100;   /*lila*/
+  	font-size:20pt;  
+  	font-family:calibri; /* Schriftart */
+}
+
+div.footer {
+	position: absolute;
+	bottom: 0;
+	background-color: #a7a7a7; /*grau*/
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+	<div class="banner" id="section"></div>
+	<div class="content">
+		<p>	Diese Darstellung soll Diskriminierung im Design simulieren. <br> 
+			Viele Designer ignorieren den Fakt, dass Gestaltung inklusiv sein sollte. Unter den Begriff der Diskriminierung fallen einige Bereiche, wie "Sexismus", "Rassismus" und "Klassismus". <br> 
+			Was für Design eine weitere Rolle spielt ist der "Ableism", die Diskriminierung von verschiedenen Behinderungen. <br>
+			<br>
+			Um die inklusive Version des Plakats sehen zu können ladet euch die verlinkte App herunter und scanned das Plakat.
+		</p>
+	  	<a href="https://play.google.com/store/apps/details?hl=de&id=com.aurasma.aurasma">Augmented Reality App - HP Reveals</a>
+	</div>
+	<div class="footer" id="section"></div>
+</div>
+</body>
 </html>
