@@ -1,4 +1,3 @@
-
 <html>
 <head>
  
@@ -32,19 +31,57 @@ div.content {
 p {
   	color:#000000;   
   	font-size:20pt;  
-  	font-family:'PT Sans', sans-serif; /* Schriftart */
+  	font-family:calibri; /* Schriftart */
 }
 
 a {
   	color:#EFC100;   /*lila*/
   	font-size:20pt;  
-  	font-family:'PT Sans', sans-serif; /* Schriftart */
+  	font-family:calibri; /* Schriftart */
 }
 
 div.footer {
 	position: absolute;
 	bottom: 0;
 	background-color: #a7a7a7; /*grau*/
+}
+
+@media (max-width: 650px) {
+ 	div#section {
+	width: 100%;
+	height: 60px;
+	}
+	 
+	p, a {
+	  	font-size:16pt;  
+	}
+}
+
+
+@media (max-height: 600px) {
+  	div#section {
+	width: 100%;
+	height: 60px;
+	}
+	 
+	p, a {
+	  	font-size:16pt;  
+	}
+}
+
+@media (max-height: 400px) {
+   div#section {
+	width: 100%;
+	height: 60px;
+	}
+	 
+	p, a {
+	  	font-size:12pt;  
+	}
+
+	div.footer {
+		display: none;
+	}
 }
 </style>
 </head>
